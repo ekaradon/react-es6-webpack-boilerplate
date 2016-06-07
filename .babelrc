@@ -3,6 +3,7 @@
   "env": {
       "development": {
           "plugins": [
+            "transform-react-constant-elements",
             "transform-runtime",
             ["react-transform", {
               "transforms": [{
